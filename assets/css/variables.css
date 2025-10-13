@@ -1,0 +1,29 @@
+:root {
+/* Cores que serão utilizados */
+  --color-primary: #ffe066;
+  --color-primary-dark: #ffd347;
+  --color-secundary: #ffd699;
+  --color-highlight: #ffb700;
+  --color-accent: #fad25a;
+  --color-title: #d4a62c;
+  --color-subtitle: #a67c36;
+  --color-button: #f5c54e;
+  --color-background: #fffdeb;
+  --color-footer: #777;
+  --color-dark: #502d07;
+  --color-link: #a67c36;
+  --color-link-hover: #f3c240;
+  --color-card-border: #fad25a;
+  --color-card-shadow: #fcf6e3;
+  --color-shadow: #0002;
+  --color-shadow-strong: #0003;
+  --color-font:#000;
+  --color-hover:#a8824f;
+
+/* Bordas */
+   --border-main: 2px solid var(--color-highlight);
+   --border-card: 8px solid var(--color-accent);
+   --border-img: 2px solid var(--color-accent);
+   
+}
+
