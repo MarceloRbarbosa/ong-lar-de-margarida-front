@@ -67,7 +67,7 @@ main {
     width: 100%;
 }
 
-.carrossel {
+.carousel {
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -80,10 +80,11 @@ main {
     box-shadow: 0 4px 8px #0002;
 }
 
-.carrossel img {
-    width: 360px;
-    height: 240px;
+.carousel img {
+    width: 100%;
+    height: 500px;
     object-fit: cover;
+    object-position: 80% 20%;
     border-radius: 12px;
     flex-shrink: 0;
     scroll-snap-align: center;
@@ -92,7 +93,7 @@ main {
     overflow-x: auto
 }
 
-.carrossel img:hover {
+.carrousel img:hover {
     transform: scale(1.04);
     box-shadow: 0 6px 20px #0002;
 }
