@@ -25,19 +25,17 @@ header {
 header img {
     border-radius: 100px;
     border: var(--border-img);
-    height: 80%;
 }
 
 nav {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    gap: 20px;
-    place-items: center;
+    display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 nav ul {
     display: flex;
-    gap: 8px;
+    gap: 20px;
 
 }
 
@@ -75,23 +73,19 @@ main {
     overflow-x: auto;
     padding: 16px 0;
     scroll-snap-type: x mandatory;
-    border: var(--border-main);
-    border-radius: 16px;
-    background: var(--color-background);
-    box-shadow: 0 4px 8px #0002;
 }
 
 .carousel img {
-    width: 100%;
+    width: auto;
     height: 500px;
-    object-fit: cover;
-    object-position: 80% 20%;
-    border-radius: 12px;
+    object-fit:contain;
+    object-position: center;
     flex-shrink: 0;
     scroll-snap-align: center;
-    box-shadow: 0 2px 6px #0002;
     transition: transform 0.4s;
-    overflow-x: auto
+    overflow-x: auto;
+    background-color: var(--color-background);
+    border: var(--border-main);
 }
 
 .carrousel img:hover {
@@ -156,12 +150,17 @@ footer a {
     color: var(--color-footer)
 }
 
-@media(max-width: 730px) {
-    header img{
-        display: none;
-    }
+@media(max-width: 650px) {
+header{
+    background: inherit;
+}
+    
+header img{
+    display: none;
+}
 
-    nav ul{
-        display: none;
-    }
+nav ul{
+    display: none;
+}  
+
 }
