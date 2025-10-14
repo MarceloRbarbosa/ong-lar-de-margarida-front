@@ -25,6 +25,7 @@ header {
 header img {
     border-radius: 100px;
     border: var(--border-img);
+    height: 80%;
 }
 
 nav {
@@ -101,7 +102,7 @@ main {
 .cards {
     display: flex;
     justify-content: space-between;
-    gap: 32px;
+    gap: 15px;
     margin: 40px auto 20px auto;
     max-width: 1400px;
     padding: 0 4vw;
@@ -110,7 +111,6 @@ main {
 
 .card {
   background: linear-gradient(100deg, var(--color-card-shadow) 85%, var(--color-secondary) 100%);
-  border-top: var(--border-card);
   border-radius: 12px;
   box-shadow: 0 6px 24px #fcf6e3;
   color: var(--color-card-font);
@@ -122,25 +122,26 @@ main {
   position: relative;
 }
 
-.card h2 {
-    margin-bottom: 18px;
-   color: var(--color-title);
-    font-size: 2.1em;
-    font-family: 'Roboto', sans-serif;
-    padding-left: 10px;
+.accordion-button {
+    border-top: var(--border-card);
+    color: var(--color-link);
+    font-weight: bold;
+
+&:hover {
+    color: var(--color-link-hover);
 }
 
-.card a {
-  font-weight: bold;
-  text-decoration: none;
-  transition: color 0.2s;
-  text-decoration: none;
-  color: var(--color-link);
-  cursor: pointer;
+&:focus{
+background-color: var(--color-background);
+border-radius: 12px;
+border-bottom: var(--border-img);
+color: var(--color-link);
+box-shadow: none;
+outline: none;
 }
-
-.card a:hover {
- color: var(--color-link-hover);
+}
+.accordion-body p{
+color: var(--color-link);
 }
 
 footer {
@@ -155,3 +156,12 @@ footer a {
     color: var(--color-footer)
 }
 
+@media(max-width: 730px) {
+    header img{
+        display: none;
+    }
+
+    nav ul{
+        display: none;
+    }
+}

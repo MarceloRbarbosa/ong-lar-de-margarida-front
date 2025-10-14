@@ -13,7 +13,6 @@
   --color-dark: #502d07;
   --color-link: #a67c36;
   --color-link-hover: #f3c240;
-  --color-card-border: #fad25a;
   --color-card-shadow: #fcf6e3;
   --color-shadow: #0002;
   --color-shadow-strong: #0003;
@@ -23,7 +22,7 @@
 
 /* Bordas */
    --border-main: 2px solid var(--color-highlight);
-   --border-card: 8px solid var(--color-accent);
+   --border-card: 10px solid var(--color-accent);
    --border-img: 2px solid var(--color-accent);
    
 }
