@@ -62,7 +62,7 @@ nav a:hover{
   color: var(--color-hover);
 }
 
-/* main {
+main {
     margin: 0 auto;
     width: 100%;
 }
@@ -108,11 +108,11 @@ nav a:hover{
 }
 
 .card {
-  background: linear-gradient(100deg, #fffdeb 85%, #ffd699 100%);
-  border-top: 8px solid #fad25a;
+  background: linear-gradient(100deg, var(--color-card-shadow) 85%, var(--color-secondary) 100%);
+  border-top: var(--border-card);
   border-radius: 12px;
   box-shadow: 0 6px 24px #fcf6e3;
-  color: #774c06;
+  color: var(--color-card-font);
   padding: 42px 32px 32px 32px;
   flex: 1 1 370px;
   min-width: 320px;
@@ -123,7 +123,7 @@ nav a:hover{
 
 .card h2 {
     margin-bottom: 18px;
-   color: #d4a62c;
+   color: var(--color-title);
     font-size: 2.1em;
     font-family: 'Roboto', sans-serif;
     padding-left: 10px;
@@ -134,23 +134,23 @@ nav a:hover{
   text-decoration: none;
   transition: color 0.2s;
   text-decoration: none;
-  color: #a67c36;
+  color: var(--color-link);
   cursor: pointer;
 }
 
 .card a:hover {
- color: #f3c240;;
+ color: var(--color-link-hover);
 }
 
 footer {
     text-align: center;
     margin-top: 40px;
-    color: #777;
+    color: var(--color-footer);
     font-size:0.9em;
 }
 
 footer a {
     text-decoration: none;
-    color: #777
-} */
+    color: var(--color-footer)
+}
 

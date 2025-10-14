@@ -19,6 +19,7 @@
   --color-shadow-strong: #0003;
   --color-font:#000;
   --color-hover:#a8824f;
+  --color-card-font:#774c06
 
 /* Bordas */
    --border-main: 2px solid var(--color-highlight);
