@@ -37,6 +37,8 @@ header {
 .logo img {
   border-radius: 100%;
   border: 2px solid #fad25a;
+  height: auto;
+  display: block;
 }
 
 .nav-links {
