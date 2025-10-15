@@ -18,82 +18,105 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
+      <nav class="navbar" aria-label="Navegação menu superior">
         <div class="logo">
-          <img src="/assets/images/logo.jpg" />
+          <a href="index.html"><img src="/assets/images/logo.jpg" alt="logo da ong lar de margarida" /></a>         
         </div>
         <ul class="nav-links">
-          <li><a href="#home">Início</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#Projetos">projetos</a></li>
-          <li><a href="#voluntarios">Voluntários</a></li>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="index.html#sobre">Sobre</a></li>
+          <li><a href="projetos.html">projetos</a></li>
+          <li><a href="cadastro.html">Seja um Voluntário</a></li>
         </ul>
       </nav>
     </header>
+
     <main>
-      <section id="#home" class="hero">
+      <section id="home" class="hero">
         <div class="hero-content">
           <h1>Seja Bem-Vindo ao Lar de Margarida</h1>
           <p>Amor que transforma vidas</p>
-          <a href="#voluntarios" class="btn"> Seja um voluntário</a>
+          <a href="cadastro.html" class="btn"> Seja um voluntário</a>
         </div>
       </section>
 
-      <section id="#sobre" class="sobre">
+      <section id="sobre" class="sobre">
         <div class="container">
           <h2>Sobre Nós</h2>
           <p>
-            TEXTO COM CONTEUDO
-            ...................................................................................................
+            O Lar de Margarida é uma organização sem fins lucrativos situada em
+            Unamar, Cabo Frio, dedicada a acolher, cuidar e promover a dignidade
+            de pessoas. Inspirados pela solidariedade e pelo amor ao próximo,
+            trabalhamos para oferecer apoio social, emocional e profissional a
+            crianças, jovens, famílias e idosos que necessitam de um novo
+            começo. Nosso lar é um espaço de esperança, onde cada pessoa é
+            acolhida com respeito, carinho e a certeza de que ninguém está
+            sozinho.
           </p>
         </div>
 
         <div class="sobre-grid">
           <article class="sobre-card">
             <h3>Missão</h3>
-            <p>Texto</p>
+              <p>
+              Promover a dignidade humana através do acolhimento, da educação e
+              da inclusão social, oferecendo oportunidades para que cada pessoa
+              possa reconstruir sua história com fé, amor e autonomia.
+            </p>       
           </article>
 
           <article class="sobre-card">
             <h3>Visão</h3>
-            <p>Texto</p>
+            <p>
+              Ser reconhecido como um referencial de amor e transformação social
+              na região dos Lagos, sendo um espaço onde a solidariedade floresce
+              e a comunidade se une para mudar vidas e construir futuros
+              melhores.
+            </p>
           </article>
 
           <article class="sobre-card">
             <h3>Valores</h3>
-            <p>Texto</p>
+            <p>
+              Amor ao próximo: base de todas as nossas ações. Respeito e
+              empatia: acolher sem julgamentos, com escuta e cuidado. Fé e
+              esperança: acreditar no potencial de cada ser humano.
+              Transparência: agir com clareza e responsabilidade em tudo o que
+              fazemos. Compromisso social: transformar realidades através de
+              ações concretas e sustentáveis.
+            </p>
           </article>
         </div>
       </section>
 
-      <section id="#projetos" class="projetos">
+      <section id="projetos" class="projetos">
         <div class="container">
-          <h2>Nosso Projetos</h2>
+          <div class="link-projeto">
+            <a href="projetos.html">Nossos Projetos</a>
+          </div>
           <div class="projetos-grid">
-
             <article class="projeto-card">
-              <div class="projeto-img">Exemplo1</div>
-              <h3>Nome do projeto</h3>
-              <p>Conteudo do projeto</p>
+              <img class="projeto-img" src="/assets/images/foto1.jpg" alt="crianças com o mestre Marcio Rodrigues"></img>
+              <h3>Aula Capoeira Infantil</h3>
+              <p>Atividade de capoieira com Mestre Marcio Rodrigues</p>
             </article>
 
             <article class="projeto-card">
-              <div class="projeto-img">Exemplo2</div>
-              <h3>Nome do projeto</h3>
-              <p>Conteudo do projeto</p>
+               <img class="projeto-img" src="/assets/images/foto2.jpg" alt="Crianças na sala de aula, realizando atividades de reforço escolar"></img>
+              <h3>Reforço escolar</h3>
+              <p>Atividades de reforço das aulas escolares para crianças</p>
             </article>
 
             <article class="projeto-card">
-              <div class="projeto-img">Exemplo3</div>
-              <h3>Nome do projeto</h3>
-              <p>Conteudo do projeto</p>
+              <img class="projeto-img" src="/assets/images/foto3.jpg" alt="Jovens na sala de aula, estudando informatica"></img>
+              <h3>Informatica</h3>
+              <p>Aulas de informática e inclusão digital</p>
             </article>
-
           </div>
         </div>
       </section>
 
-      <section id="#localizacao" class="localizacao">
+      <section id="localizacao" class="localizacao">
         <div class="container">
           <h2>Onde estamos</h2>
           <div class="contato-info">
@@ -109,27 +132,20 @@
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
+            ></iframe>
           </div>
-        </section>
-      </main>
+        </div>
+      </section>
+    </main>
+
     <footer>
-      <p></p>
-      <ion-icon name="home-outline"></ion-icon> Av Independencia KM 132, Cabo
-      Frio, RJ, Brazil
-      <br />
-      <ion-icon name="call-outline"></ion-icon> (22) 98116-3488
-      <br />
+    <p><ion-icon name="home-outline"></ion-icon> Av Independencia KM 132, Cabo Frio, RJ, Brasil<br>
+      <ion-icon name="call-outline"></ion-icon> (22) 98116-3488<br>
       <ion-icon name="logo-youtube"></ion-icon>
-      <a
-        href="https://www.youtube.com/channel/UCEgmS5iivX5Txik7TqL2ZQA"
-        target="_blank"
-      >
-        YouTube</a
-      >
-      <p>&copf; 2025 Plataforma da Ong - Todos direitos Reservados</p>
-    </footer>
+      <a href="https://www.youtube.com/channel/UCEgmS5iivX5Txik7TqL2ZQA" target="_blank" rel="noopener">YouTube</a>
+    </p>
+    <p>&copy; 2025 Lar de Margarida — Todos os direitos reservados</p>
+  </footer>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
