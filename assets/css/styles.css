@@ -25,6 +25,9 @@ header {
   z-index: 10;
 }
 
+.icon {
+  display: none;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -59,6 +62,7 @@ header {
 main {
   margin-top: 12rem;
 }
+
 .hero {
   background: linear-gradient(rgba(255, 200, 77, 0.6), rgba(0, 0, 0, 0.5)),
     url("/assets/images/lar.jpg");
@@ -75,16 +79,17 @@ main {
   margin: 60px;
 }
 
-.hero-content h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
 .hero-content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
 .hero-content p {
   font-size: 1.4rem;
   margin-bottom: 2rem;
@@ -159,46 +164,6 @@ main {
   font-size: 1.5rem;
 }
 
-.accordion {
-  background-color: #d4a62c;
-  color: #fff;
-  cursor: pointer;
-  padding: 1.5rem;
-  width: 100%;
-  text-align: center;
-  border: none;
-  outline: none;
-  font-size: 1.8rem;
-  font-weight: bold;
-  border-radius: 10px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.accordion:hover {
-  background-color: #e0b83c;
-  transform: scale(1.02);
-}
-
-.accordion-content {
-  background-color: #fff;
-  color: #a67c36;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s ease;
-  border-radius: 0 0 10px 10px;
-  padding: 0 1.5rem;
-}
-
-.accordion-content p {
-  padding: 1.5rem 0;
-  font-size: 1.2rem;
-  color: #000;
-}
-
-.accordion.active + .accordion-content {
-  max-height: 500px;
-}
-
 .projetos {
   padding: 5rem 2rem;
   background-color: #fff;
@@ -207,12 +172,18 @@ main {
 .link-projeto {
   text-align: center;
 }
+
 .link-projeto a {
   font-size: 2.5rem;
   text-align: center;
-  color: #a67c36;
+  background-color: #d4a62c;
+  color: #fff;
   text-decoration: none;
+  border-radius: 8px;
+  padding: .5rem;
 }
+
+
 
 .projetos-grid {
   display: grid;
@@ -237,12 +208,13 @@ main {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-.projeto-card h3 {
-  margin: 2rem 0;
-}
-
 .projeto-img {
   width: 100%;
+}
+
+.projeto-card h3 {
+  margin: 2rem 0;
+  color: #502d07;
 }
 
 .localizacao {
@@ -313,12 +285,44 @@ main {
 footer {
   text-align: center;
   margin-top: 40px;
-  color: var(--color-footer);
+  color: #585858;
   font-size: 0.9em;
 }
 
 footer a {
   text-decoration: none;
-  color: var(--color-footer);
+  color: #585858;
 }
 
+@media (max-width: 900px){
+
+.hero-content h1 {
+  font-size: 2.5rem;
+}
+
+
+}
+@media (max-width: 778px){
+
+.hero-content h1 {
+  font-size: 2.0rem;
+}
+}
+
+@media( max-width: 650px){
+ 
+  .logo img {
+    height: 5rem;
+  }
+
+.icon {
+  display: flex;
+  font-size: 2.5rem;
+  color: #a8824f;
+}
+
+.nav-links {
+  display: none;
+}
+ 
+}
