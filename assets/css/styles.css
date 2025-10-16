@@ -206,6 +206,16 @@ main {
   padding: var(--space-5) var(--space-2);
 }
 
+.projetos-grid-index {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-3);
+  max-width: 1200px;
+  margin: 0 auto;
+  transition: var(--transition-slow);
+  padding: var(--space-5) var(--space-2);
+}
+
 .projeto-card {
   background-color: var(--color-neutral-light);
   padding: var(--space-3);
@@ -287,6 +297,30 @@ main {
   border-radius: var(--radius-sm);
   color: var(--color-success);
 }
+
+/* ===============================
+   MENU MOBILE
+=============================== */
+
+.nav-links {
+  transition: max-height var(--transition-base), opacity var(--transition-base);
+  overflow: hidden;
+}
+
+.nav-links.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-light);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: var(--space-3) 0;
+  box-shadow: var(--shadow-md);
+  z-index: 9;
+}
+
 
 /* ===============================
    FOOTER
