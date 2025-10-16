@@ -289,22 +289,6 @@ main {
 }
 
 /* ===============================
-   MENU MOBILE
-=============================== */
-#mainNav.open {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-2);
-  background: var(--color-light);
-  position: absolute;
-  top: 70px;
-  right: 16px;
-  padding: var(--space-2);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-md);
-}
-
-/* ===============================
    FOOTER
 =============================== */
 footer {
