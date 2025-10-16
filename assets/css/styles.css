@@ -174,13 +174,7 @@ main {
 }
 
 .link-projeto a {
-  font-size: 2.5rem;
-  text-align: center;
-  background-color: #d4a62c;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: .5rem;
+  font-size: 2rem;
 }
 
 
