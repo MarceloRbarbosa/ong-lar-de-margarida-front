@@ -177,6 +177,14 @@ main {
   font-size: 2rem;
 }
 
+.projetos .container h1 {
+  color: #502d07;
+}
+
+.projetos .container p {
+  color: #502d07;
+}
+
 .projetos-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -341,6 +349,13 @@ footer a {
     width: 90%; 
     max-width: 320px; 
   }
+
+  .projetos {
+    margin-top: 8rem;
+    text-align: center;
+  }
+
+  
 
  
 }
