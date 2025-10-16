@@ -306,6 +306,18 @@ footer a {
 /* ===============================
    RESPONSIVIDADE
 =============================== */
+@media (min-width: 2000px){
+  .navbar a {
+    font-size: var(--font-size-xl);
+  }
+}
+  @media (min-width: 1200px){
+.navbar a {
+  font-size: var(--font-size-lg);
+}
+
+}
+
 @media (max-width: 900px) {
   .hero-content h1 {
     font-size: var(--font-size-xl);
@@ -369,3 +381,5 @@ footer a {
     text-align: center;
   }
 }
+
+
