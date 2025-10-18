@@ -131,26 +131,26 @@ main {
 /* ===============================
    SEÇÃO SOBRE
 =============================== */
-.sobre {
+.about {
   padding: var(--space-5) var(--space-2);
   background-color: var(--color-neutral-light);
   text-align: center;
 }
 
-.sobre h2 {
+.about h2 {
   font-size: var(--font-size-xl);
   margin-bottom: var(--space-2);
   color: var(--color-secondary);
 }
 
-.sobre p {
+.about p {
   font-size: var(--font-size-md);
   max-width: 800px;
   margin: 0 auto;
   color: var(--color-secondary);
 }
 
-.sobre-grid {
+.about-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: var(--space-3);
@@ -160,7 +160,7 @@ main {
   cursor: pointer;
 }
 
-.sobre-card {
+.about-card {
   background-color: var(--color-secondary);
   padding: var(--space-3);
   border-radius: var(--radius-md);
@@ -169,33 +169,33 @@ main {
   box-shadow: var(--shadow-sm);
 }
 
-.sobre-card h3,
-.sobre-card p {
+.about-card h3,
+.about-card p {
   color: var(--color-light);
 }
 
 /* ===============================
-   SEÇÃO PROJETOS
+   SEÇÃO projects
 =============================== */
-.projetos {
+.projects {
   padding: var(--space-5) var(--space-2);
   background-color: var(--color-light);
 }
 
-.link-projeto {
+.link-project {
   text-align: center;
 }
 
-.link-projeto a {
+.link-project a {
   font-size: var(--font-size-lg);
 }
 
-.projetos .container h1,
-.projetos .container p {
+.projects .container h1,
+.projects .container p {
   color: var(--color-dark);
 }
 
-.projetos-grid {
+.projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: var(--space-3);
@@ -205,7 +205,7 @@ main {
   padding: var(--space-5) var(--space-2);
 }
 
-.projetos-grid-index {
+.projects-grid-index {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: var(--space-3);
@@ -215,7 +215,7 @@ main {
   padding: var(--space-5) var(--space-2);
 }
 
-.projeto-card {
+.projects-card {
   background-color: var(--color-neutral-light);
   padding: var(--space-3);
   border-radius: var(--radius-md);
@@ -224,16 +224,16 @@ main {
   box-shadow: var(--shadow-sm);
 }
 
-.projeto-card:hover {
+.projects-card:hover {
   transform: translateY(-10px);
   box-shadow: var(--shadow-lg);
 }
 
-.projeto-img {
+.project-img {
   width: 100%;
 }
 
-.projeto-card h3 {
+.projects-card h3 {
   margin: var(--space-3) 0;
   color: var(--color-dark);
 }
@@ -241,19 +241,19 @@ main {
 /* ===============================
    SEÇÃO LOCALIZAÇÃO
 =============================== */
-.localizacao {
+.location {
   padding: var(--space-5) var(--space-2);
   background-color: var(--color-neutral-light);
 }
 
-.localizacao h2 {
+.location h2 {
   font-size: var(--font-size-xl);
   text-align: center;
   margin-bottom: var(--space-3);
   color: var(--color-secondary);
 }
 
-.contato-info {
+.info {
   text-align: center;
   margin-bottom: var(--space-3);
 }
@@ -271,9 +271,9 @@ main {
 /* ===============================
    FORMULÁRIO
 =============================== */
-.form-cadastro input,
-.form-cadastro select,
-.form-cadastro textarea {
+.form-register input,
+.form-register select,
+.form-register textarea {
   width: 100%;
   padding: 0.8rem;
   margin: 0.5rem 0 1rem 0;
@@ -392,11 +392,11 @@ footer a {
     text-align: center;
   }
 
-  .link-projeto a {
+  .link-project a {
     font-size: var(--font-size-sm);
   }
 
-  .projetos-grid {
+  .projects-grid {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -404,12 +404,12 @@ footer a {
     gap: var(--space-3);
   }
 
-  .projeto-card {
+  .projects-card {
     width: 90%;
     max-width: 320px;
   }
 
-  .projetos {
+  .projects {
     margin-top: 8rem;
     text-align: center;
   }
@@ -429,7 +429,7 @@ footer a {
     font-size: var(--font-size-sm);
   }
 
-  .projeto-card {
+  .projects-card {
     width: 95%;
   }
 
