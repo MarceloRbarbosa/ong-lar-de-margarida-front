@@ -202,7 +202,6 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   transition: var(--transition-slow);
-  cursor: pointer;
   padding: var(--space-5) var(--space-2);
 }
 
