@@ -1,4 +1,4 @@
-ativarDropdown()
+ativarDropdown();
 
 
 function ativarDropdown(){
